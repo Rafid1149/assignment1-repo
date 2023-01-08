@@ -176,7 +176,7 @@ li {
 
 /* image container style */
 .new-section-container {
-    background-image: linear-gradient(to right, rgba(195, 58, 4, 0.9),rgba(201, 216, 186, 0.2)),url(./watch.png);
+    background-image: linear-gradient(to right, rgba(195, 58, 4, 0.9),rgba(201, 216, 186, 0.2)),url("./watch.png");
     background-repeat: no-repeat;
     height: 300px;
     width: 1140px;
