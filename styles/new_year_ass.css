@@ -122,7 +122,6 @@
     width: 349px;
     height: 162px;
     color: #444343;
-    /* padding-bottom: 200px; */
 }
 
 li {
@@ -131,15 +130,17 @@ li {
 }
 
 /* planning-style */
-.my-goals{
+.my-goals {
     padding-left: 230px;
     padding-right: 250px;
 }
+
 .section-heading {
     font-weight: 700;
     font-size: 40px;
     padding-left: 480px;
     margin-bottom: 50px;
+
 
 }
 
@@ -156,6 +157,7 @@ li {
     color: #151414;
     padding-top: 25px;
     padding-bottom: 15px;
+
 }
 
 .plan-description {
@@ -164,9 +166,125 @@ li {
     line-height: 29px;
     text-align: center;
     color: #737272;
-
+    margin-bottom: 115px;
 }
-.plan{
+
+.plan {
     text-align: center;
     padding: 30;
+    align-items: center;
+}
+
+/* image container style */
+.new-section-container {
+    background-image: linear-gradient(to right, rgba(240, 78, 14, 0.8),rgba(201, 216, 186, 0.2)),url(/images/watch.png);
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1140px;
+    border-radius: 8px;
+    margin: 100px 230px;
+
+}
+
+.img-heading {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-right: 650px;
+    padding-left: 50px;
+    padding-top: 55px;
+    margin-bottom: 25px;
+}
+
+.btn-secondary {
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    padding: 20px 35px;
+}
+
+.img-btn {
+    padding-left: 50px;
+}
+
+/* contact style */
+.contact {
+    display: flex;
+    background: #151414;
+    height: 80vh;
+    gap: 330px;
+}
+
+.contact .social {
+    text-align: left;
+    padding: 120px 230px;
+
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin: 16px;
+}
+
+.contact-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.contact-address1 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.contact-address2 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+   
+}
+
+.form {
+    padding-right: 230px;
+    padding-top: 142px;
+}
+
+.form-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.form input {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #F3F3F3;
+    text-align: left;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: #151414;
+}
+
+.btn-tertiary {
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #F15B22;
+    padding: 20px 35px;
 }
