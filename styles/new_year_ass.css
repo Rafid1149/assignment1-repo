@@ -211,7 +211,7 @@ li {
 /* contact style */
 .contact {
     display: flex;
-    background: #151414;
+    background: #b1d5dd;
     height: 80vh;
     gap: 330px;
 }
@@ -225,28 +225,28 @@ li {
 .contact-title {
     font-weight: 700;
     font-size: 45px;
-    color: #F8F8F8;
+    color: #df752f;
     margin: 16px;
 }
 
 .contact-description {
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #df752f;
     margin-bottom: 24px;
 }
 
 .contact-address1 {
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #df752f;
     margin-bottom: 15px;
 }
 
 .contact-address2 {
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #df752f;
     margin-bottom: 10px;
    
 }
@@ -259,7 +259,7 @@ li {
 .form-title {
     font-weight: 600;
     font-size: 25px;
-    color: #FFFFFF;
+    color: #df752f;
     margin-bottom: 15px;
 }
 
@@ -273,7 +273,7 @@ li {
     text-align: left;
     border: 1px solid #FFFFFF;
     border-radius: 8px;
-    background-color: #151414;
+    
 }
 
 .btn-tertiary {
