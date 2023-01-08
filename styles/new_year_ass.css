@@ -1,0 +1,172 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav styles */
+.nav-container {
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+    background-color: #585858;
+    align-items: center;
+}
+
+.logo-container {
+    padding-right: 200px;
+}
+
+.items {
+    display: flex;
+    margin-right: 20px;
+}
+
+.item {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px;
+    margin-right: 10px;
+    list-style: none;
+    color: rgb(222, 228, 232);
+}
+
+/* banner section style */
+.banner-container {
+
+    background-image: url("../images/banner/banner2.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+.banner-content {
+    padding-left: 850px;
+    padding-right: 215px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.banner-title {
+    width: 525px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+    color: #151414;
+    margin-bottom: 30px;
+}
+
+.banner-description {
+    width: 494px;
+    height: 73px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    background: #F15B22;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    color: #FFFFFF;
+    padding: 21px 25px;
+    border: 0;
+}
+
+.btn-set {
+    padding-left: 318px;
+}
+
+/* After banner style */
+.after-banner {
+    display: inline-flex;
+    padding: 115px 292px 130px 235px;
+}
+
+.image-section {
+    margin-right: 35px;
+}
+
+.my-section {
+    padding-left: 100px;
+    padding-top: 250px;
+}
+
+.my-title {
+    height: 94px;
+    width: 288px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.my-title-description {
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+.my-title-list {
+    width: 349px;
+    height: 162px;
+    color: #444343;
+    /* padding-bottom: 200px; */
+}
+
+li {
+    list-style: none;
+    padding-bottom: 8px;
+}
+
+/* planning-style */
+.my-goals{
+    padding-left: 230px;
+    padding-right: 250px;
+}
+.section-heading {
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 480px;
+    margin-bottom: 50px;
+
+}
+
+.plan-container {
+    display: flex;
+    gap: 105px;
+    text-align: center;
+}
+
+.planning-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+
+}
+.plan{
+    text-align: center;
+    padding: 30;
+}
